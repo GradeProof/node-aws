@@ -1,4 +1,4 @@
-FROM node
+FROM node:10
 LABEL maintainer="Craig Sketchley <craig@gradeproof.com>"
 
 RUN apt-get update && apt-get install -y python python-dev
